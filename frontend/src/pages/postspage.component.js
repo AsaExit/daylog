@@ -13,7 +13,7 @@ const PostsPage = ({ loading, posts, dispatchFetchAllPostsAction }) => {
         <React.Fragment>
             <div className="row my-5">
                 <div className="col-10">
-                    <h2>Arvids daylogs</h2>
+                    <h2>Daylogs</h2>
                 </div>
                 <div className="col-2">
                     <Link to="/edit-post" className="btn btn-dark">

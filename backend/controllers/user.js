@@ -37,5 +37,5 @@ getSignedToken = user => {
         email: user.email,
         firstName: user.firstName,
         lastName: user.lastName
-    }, SECRET_KEY, { expiresIn: '1h' });
+    }, SECRET_KEY, { expiresIn: '8h' });
 };
